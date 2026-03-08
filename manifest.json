@@ -1,22 +1,22 @@
 {
-    "name": "finly-analytica-period-tabs",
-    "organization": "Dataconnecta",
-    "description": "Interactive period tabs for Finly Analytica. Displays ready performance metrics and filters charts by selected period.",
-    "logoUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
-    "packageUrl": "https://www.dataconnecta.com/finly-analytica",
-    "supportUrl": "https://www.dataconnecta.com/finly-analytica",
-    "devMode": true,
-    "components": [
-        {
-            "id": "finly-analytica-period-tabs",
-            "name": "Finly Analytica Period Tabs",
-            "description": "Tabs that display ready performance values and filter charts by selected period.",
-            "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
-            "resource": {
-                "js": "https://YOUR_DOMAIN/viz.js",
-                "config": "https://YOUR_DOMAIN/viz-config.json",
-                "css": "https://YOUR_DOMAIN/viz.css"
-            }
-        }
-    ]
+  "name": "finly-analytica-period-tabs",
+  "organization": "Dataconnecta",
+  "description": "Interactive period tabs for Finly Analytica. Displays ready performance metrics and filters charts by selected period.",
+  "logoUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+  "packageUrl": "https://www.dataconnecta.com/finly-analytica",
+  "supportUrl": "https://www.dataconnecta.com/finly-analytica",
+  "devMode": true,
+  "components": [
+    {
+      "id": "finly-analytica-period-tabs",
+      "name": "Finly Analytica Period Tabs",
+      "description": "Tabs that display ready performance values and filter charts by selected period.",
+      "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+      "resource": {
+        "js": "https://cdn.jsdelivr.net/gh/taner-cmyk/finly-analytica-period-tabs@main/viz.js",
+        "config": "https://cdn.jsdelivr.net/gh/taner-cmyk/finly-analytica-period-tabs@main/viz-config.json",
+        "css": "https://cdn.jsdelivr.net/gh/taner-cmyk/finly-analytica-period-tabs@main/viz.css"
+      }
+    }
+  ]
 }
