@@ -1,0 +1,113 @@
+{
+    "data": [
+        {
+            "id": "default",
+            "label": "Finly Analytica Period Tabs",
+            "elements": [
+                {
+                    "id": "stockCode",
+                    "label": "Stock Code",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "Tarih",
+                    "label": "Tarih",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_1H",
+                    "label": "btn_1H",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_1W",
+                    "label": "btn_1W",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_1M",
+                    "label": "btn_1M",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_YTD",
+                    "label": "btn_YTD",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_6M",
+                    "label": "btn_6M",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_1Y",
+                    "label": "btn_1Y",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "btn_5Y",
+                    "label": "btn_5Y",
+                    "type": "DIMENSION",
+                    "required": false
+                },
+                {
+                    "id": "perf_1H",
+                    "label": "perf_1H",
+                    "type": "METRIC",
+                    "required": false
+                },
+                {
+                    "id": "perf_1W",
+                    "label": "perf_1W",
+                    "type": "METRIC",
+                    "required": false
+                },
+                {
+                    "id": "perf_1M",
+                    "label": "perf_1M",
+                    "type": "METRIC",
+                    "required": false
+                },
+                {
+                    "id": "perf_YTD",
+                    "label": "perf_YTD",
+                    "type": "METRIC",
+                    "required": false
+                },
+                {
+                    "id": "perf_6M",
+                    "label": "perf_6M",
+                    "type": "METRIC",
+                    "required": false
+                },
+                {
+                    "id": "perf_1Y",
+                    "label": "perf_1Y",
+                    "type": "METRIC",
+                    "required": false
+                },
+                {
+                    "id": "perf_5Y",
+                    "label": "perf_5Y",
+                    "type": "METRIC",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "style": [],
+    "themeStyle": [],
+    "interactions": [
+        {
+            "id": "periodFilter"
+        }
+    ]
+}
